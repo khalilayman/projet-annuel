@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #F5F7FA;
+    color: #1F2937;
+    min-height: 100vh;
+}
+
+
+.onboarding-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.progress-indicator {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+
+.progress-bar {
+    width: 60px;
+    height: 4px;
+    background: #E5E7EB;
+    border-radius: 2px;
+}
+
+.progress-bar.active {
+    background: #3B7EF8;
+}
+
+
+h1 {
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    color: #1F2937;
+    margin-bottom: 16px;
+}
+
+.highlight {
+    color: #3B7EF8;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6B7280;
+    margin-bottom: 48px;
+    line-height: 1.6;
+}
+
+.step-label {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #6B7280;
+    margin-bottom: 40px;
+}
+
+
+
+
+.suggestions-section {
+    background: #FFFFFF;
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 32px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.section-header h3 {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #374151;
+}
+
+.section-header a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #3B7EF8;
+    text-decoration: none;
+}
+
+.subject-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.subject-card:hover {
+    background: #FFFFFF;
+    border-color: #3B7EF8;
+}
+
+.subject-info h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1F2937;
+    margin-bottom: 4px;
+}
+
+.subject-info p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #6B7280;
+}
+
+.add-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #D1D5DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6B7280;
+    font-size: 18px;
+    transition: all 0.2s;
+}
+
+.subject-card:hover .add-icon {
+    border-color: #3B7EF8;
+    color: #3B7EF8;
+}
+
+
+.add-manual-btn {
+    width: 100%;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 2px dashed #D1D5DB;
+    border-radius: 12px;
+    color: #3B7EF8;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.add-manual-btn:hover {
+    border-color: #3B7EF8;
+    background: #F0F7FF;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.btn-back {
+    padding: 12px 20px;
+    background: transparent;
+    border: none;
+    color: #6B7280;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.btn-back:hover {
+    color: #3B7EF8;
+}
+
+.btn-continue {
+    padding: 14px 32px;
+    background: #3B7EF8;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-continue:hover {
+    background: #2563EB;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(59, 126, 248, 0.3);
+}
+
+footer {
+    text-align: center;
+    padding: 40px 24px 24px;
+    color: #9CA3AF;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.subject-input {
+    width: 100%;
+    padding: 10px;
+    margin: 12px 0;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+}
