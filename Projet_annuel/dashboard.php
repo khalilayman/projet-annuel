@@ -84,11 +84,7 @@ $recentExpenses = $expensesStmt->fetchAll();
             </a>
             <a href="logout.php" class="nav-item">
                 <span>Deconnexion</span>
-            </a>
-            <a href="planning.php" class="nav-item">
-                <span class="icon"><img src="/images/planning.png" alt=""></span>
-                <span>Planning Personnel</span>
-            </a>
+            </a> 
         </nav>
     </aside>
 
